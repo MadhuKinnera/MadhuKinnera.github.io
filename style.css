@@ -374,11 +374,12 @@ margin-top:23px;
 #ending{
     height:35px;
     width:100%;
-    background-color: yellow;
     text-align: center;
-    padding-top:20px;
-    font-size: 20px;
+    padding-top:15px;
+    font-size: 17px;
+    opacity: 0.6;
     color:black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     font-family:Signika Negative;
     margin-top:100px;
 

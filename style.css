@@ -3,6 +3,7 @@
     padding:0;
 }
 
+
 #navbar{
     height: 70px;
     width:100%;
@@ -382,5 +383,259 @@ margin-top:23px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     font-family:Signika Negative;
     margin-top:100px;
+
+}
+
+@media  all and (min-width:768px) and (max-width:1290px){
+    #aboutme1 > div {
+       position: relative;
+       top:-180px;
+       left:-90px;
+      
+    }
+    #arrow{
+        visibility: hidden;
+    }
+
+    #aboutme2{
+          display: block;
+          position:relative;
+          top:200px;
+          left:150px;
+    }
+    #pic{
+        position:relative;
+        bottom:525px;
+        left:12%;
+    }
+
+    #info{
+        width:90%;
+        height: 70%;
+
+    }
+
+    #info > p{
+        height: 90%;
+        font-size: 30px;
+        
+    }
+
+    #info2{
+        width:90%;
+        position:relative;
+        top:180px;
+    }
+
+    #techstack{
+        position:relative;
+        top:200px;
+    }
+    #project{
+        position: relative;
+        top:200px;
+    }
+    .pro{
+        position:relative;
+        top:200px;
+    }
+
+    .links{
+        margin-top:40px;
+        margin-left:500px;
+    }
+    #contactme{
+        position:relative;
+        top:200px;
+    }
+
+    .contact{
+        width:30%;
+    }
+
+    #ending{
+        position:relative;
+        top:200px;
+    }
+    
+    
+}
+
+
+@media  all and (min-width:320px) and (max-width:767px){
+    
+    #navbar{
+        height: 210px;
+        display: block;
+    }
+
+    #navbar > div{
+        display:block;
+        margin:auto;
+        text-align: center;
+    
+    }
+
+    #navbar > div:nth-child(2){
+        display:block;
+        margin-top:20px;
+    }
+
+    #navbar> div > div{
+        margin-top:15px;
+    }
+
+    #aboutme1{
+        height:150px;
+        position: absolute;
+        top:220px;
+        left:10px;
+    }
+    #aboutme1 > div:first-child{
+        padding-top:10px;
+        font-size:40px;
+    }
+
+    #aboutme1> div:nth-child(2){
+        font-size: 20px;
+    }
+    #aboutme1 > div:nth-child(3) > div{
+        margin-top:0px;
+        padding:10px 30px;
+        font-size: 18px;
+    }
+
+    #arow{
+       visibility: hidden;
+    }
+
+    #pic{
+        position: relative;
+        top:-270px;
+        left:25%;
+    }
+    #aboutme2{
+        display: block;
+    }
+    #info{
+        width:90%;
+        position: relative;
+        top:80px;
+        margin:auto;
+        height:60%;
+    }
+    #info > p{
+        height: 80%;
+        width:88%;
+        font-size: 22px;
+        
+    }
+    #info2{
+        width:80%;
+        height: 50%;
+        margin:auto;
+    }
+
+    #info2 > p{
+        width:100%;
+        position:relative;
+        top:-50px;
+        font-size: 20px;
+    }
+
+    
+    #project{
+        position: relative;
+        top:-100px;
+    }
+    #project > div{
+        height: 650px;;
+    }
+    .pro{
+        position:relative;
+        top:-100px;
+    }
+    
+
+  
+    #mytherisa > div> p:first-child{
+        position: relative;
+        top:-30px;
+        left:55px;
+    }
+    .propic{
+        position: relative;
+        top:10px;
+        left:-170px;
+        width:180%;
+        
+    }
+    #mytherisa >  div:first-child > p+div{
+        position: relative;
+        top:140px;
+        left:50px;
+        
+    }
+
+    #mytherisa >  div:first-child > p+div > img{
+        margin:10px;
+    }
+
+
+
+    #mytherisa > div:first-child > div:nth-child(2) {
+        width:100%;    
+    }
+
+    #mytherisa > div:first-child > div:nth-child(2)> img{
+        width:25%;
+        
+        }
+        #para{
+            font-size: 15px;
+            position: absolute;
+            top:300px;
+            width: 100%;
+            margin:16px;
+            
+        }
+
+        #mytherisa > div:first-child > div:nth-child(2)+p{
+            font-size: 16px;
+        }
+
+        .links{
+            margin-top:300px;
+        }
+        .links > p{
+            margin:10px;
+            margin-left:0px;
+        }
+
+        #contactme{
+            position:relative;
+        }
+    
+        .contact{
+            width:60%;
+        }
+
+        #contactme > div > a {
+                width:10%;
+                height:80px;
+                margin:10px;
+        }
+        #contactme > div > a:first-child > img {
+            margin-top:15px;
+        }
+
+    
+        #ending{
+            width:90%;
+            margin:auto;
+           
+        }
+
+    
 
 }

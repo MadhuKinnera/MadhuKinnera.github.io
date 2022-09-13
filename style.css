@@ -501,7 +501,7 @@ margin-top:23px;
     }
     #aboutme1 > div:nth-child(3) > div{
         margin-top:0px;
-        padding:10px 30px;
+        padding:5px 20px;
         font-size: 18px;
     }
 
@@ -527,7 +527,7 @@ margin-top:23px;
     #info > p{
         height: 80%;
         width:88%;
-        font-size: 22px;
+        font-size: 20px;
         
     }
     #info2{
@@ -542,6 +542,10 @@ margin-top:23px;
         top:-50px;
         font-size: 20px;
     }
+    #images{
+        margin-top:20px;
+        height:30%;
+    }
 
     
     #project{
@@ -553,20 +557,24 @@ margin-top:23px;
     }
     .pro{
         position:relative;
-        top:-100px;
+        top:-300px;
     }
     
+    #mytherisa{
+        position: relative;
+        top:-200px;
+    }
 
   
     #mytherisa > div> p:first-child{
         position: relative;
-        top:-30px;
+        top:-20px;
         left:55px;
     }
     .propic{
         position: relative;
         top:10px;
-        left:-170px;
+        left:-150px;
         width:180%;
         
     }
@@ -605,7 +613,8 @@ margin-top:23px;
         }
 
         .links{
-            margin-top:300px;
+            margin-top:320px;
+            margin-left:-10px;
         }
         .links > p{
             margin:10px;
@@ -614,19 +623,20 @@ margin-top:23px;
 
         #contactme{
             position:relative;
+            top:-250px;
         }
     
         .contact{
-            width:60%;
+            width:80%;
         }
 
         #contactme > div > a {
                 width:10%;
-                height:80px;
+                height:40px;
                 margin:10px;
         }
         #contactme > div > a:first-child > img {
-            margin-top:15px;
+            margin-top:18px;
         }
 
     

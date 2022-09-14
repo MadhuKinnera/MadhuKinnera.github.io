@@ -273,6 +273,23 @@ h5{
 	transition: 0.5s;
 }
 
+/* soft skills starts*/
+
+.softskills{
+	width:90%;
+	height:50%;
+	margin:auto;
+	color:#fcfc;
+}
+.softskills p{
+	font-size: 25px;
+	text-align: center;
+	margin:3%;
+	
+}
+
+/* soft skills ended */
+
 
 /* Skils over */
 

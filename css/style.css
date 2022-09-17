@@ -365,11 +365,13 @@ footer p:nth-child(2){
 		width:100%;
 		margin:auto;
 	}
+	.hero{
+		height:70vh;
+		background-image: url(../resources/black.jpg);
+	}
 	.main img{
 		width:33%;
 	}
-	.hero{
-		height:70vh;
-	}
+	
 	  }
 	

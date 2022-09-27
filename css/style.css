@@ -145,6 +145,78 @@ button:hover{
 	cursor: pointer;
 }
 
+/* Education */
+.education{
+	padding:10px 0px;
+	width:100%;
+	height:480px;
+	background-color: #191919;
+	color:white;
+}
+.colleges{
+	display:flex;
+	height:90%;
+	width:95%;
+	margin:auto;
+	align-items: center;
+	justify-content: space-evenly;
+	column-gap: 3%;
+}
+.colleges .boxes{
+	height:62%;
+	width:100%;
+	padding:15px;
+	border-radius: 10px;
+	box-shadow: rgba(226, 90, 224, 0.329) 0px 5px 15px;
+	
+}
+
+.boxes h2{
+	text-align: center;
+	margin-top:10px;
+}
+.boxes p:nth-child(2){
+	font-style: italic;
+	text-align: center;
+	margin:10px;
+}
+.boxes p:nth-child(3){
+	text-align: center;
+	margin:10px;
+}
+
+.boxes h4{
+	text-align: center;
+	margin:10px;
+}
+.boxes p:nth-child(5){
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	margin:10px;
+}
+.boxes p:nth-child(6){
+	text-align: center;
+	margin:10px;
+}
+.boxes p:nth-child(7){
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* project Starts here..*/
 
 .project{
@@ -219,7 +291,7 @@ h5{
 
 /* skills */
 .skills{
-    padding:50px 0px;
+    padding:100px 0px;
 	background-color: #191919;
 }
 

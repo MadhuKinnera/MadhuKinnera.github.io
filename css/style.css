@@ -167,7 +167,7 @@ button:hover{
 	width:100%;
 	padding:15px;
 	border-radius: 10px;
-	box-shadow: rgba(226, 90, 224, 0.329) 0px 5px 15px;
+	border:1px solid blueviolet;
 	
 }
 

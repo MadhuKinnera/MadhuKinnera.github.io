@@ -203,17 +203,35 @@ button:hover{
 	text-align: center;
 }
 
+/* Achievements Section starts here  */
 
+.achievements{
+	padding:10px 0px;
+	width:100%;
+	height:380px;
+	background-color: #191919;
+	color:white;
 
+}
 
+.achieves{
+	display: grid;
+	width:90%;
+	margin:auto;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(3,80%);
+	font-size:30px;	
+}
 
+.achieves p{
+	height:100%;
+	line-height:40px;
+	color: #fcfc;
+	/* border:1px solid red; */
+	text-align: center;
+	
 
-
-
-
-
-
-
+}
 
 
 

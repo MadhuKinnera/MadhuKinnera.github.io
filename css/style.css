@@ -436,6 +436,8 @@ h5{
 	width: 100%;
   }
 
+
+
   .github{
     padding-top:20px;
   }
@@ -554,10 +556,22 @@ footer p:nth-child(2){
 	.main img{
 		width:33%;
 	}
+	.title h2{
+		padding-right:20%;
+	  }
+	  .github h2{
+		padding-right:50%;
+	   }
+
 	
 	  }
-	
 
+	 
+
+	  
+	
+	
+	 
 
 	  /* github stats */
 

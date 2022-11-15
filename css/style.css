@@ -1,3 +1,7 @@
+
+
+
+
 *{
 	padding: 0;
 	margin: 0;
@@ -5,25 +9,33 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+
+
+html,body{
+	overflow-x:hidden;
+}
+
+
 .hero{
 	height: 100vh;
 	width: 100%;
 	background-color: black;
-	background-size: cover;
-	background-position: center;
+	/* background-size: cover;
+	background-position: center; */
 }
 nav{
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height:70px;
-	 padding-left: 8%;
-	padding-right: 8%;
 	position: fixed;
-	background-color:black;
 	width:100%;
+	align-items: center;
+	justify-content:space-between;
+	height:70px;
+	padding-left: 8%;
+	padding-right: 8%;
+	background-color:black;
 	
 }
+
 .logo{
 	color: white;
 	font-size: 30px;
@@ -32,6 +44,7 @@ nav{
 span{
 	color: #f9004d;
 }
+
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
@@ -61,10 +74,11 @@ nav ul li a:hover{
 	transform: scale(1.2);
 }
 .content{
-	position: absolute;
+	position:absolute;
 	top: 50%;
 	left:8%;
 	transform: translateY(-50%);
+
 }
 
 .content a{
@@ -99,11 +113,12 @@ h4{
 	width: 430px;
 }
 .about-text{
-	width: 550px;
+	width: 750px;
+	padding-left: 6%;
 }
 .main{
-	width: 1130px;
-	max-width: 95%;
+	width: 1150px;
+	max-width: 90%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -128,6 +143,7 @@ h4{
 }
 .about-text p{
 	color:rgba(238, 229, 229, 0.778);
+	text-align: justify;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -404,6 +420,22 @@ h5{
 	margin-top:15px;
   }
 
+
+  
+  .github_stats{
+	width:55%;
+	margin: auto;
+	display: grid;
+	justify-content: center;
+  }
+  .github_stats img{
+	width: 100%;
+  }
+
+  .github{
+    padding-top:20px;
+  }
+
 /* github contributions */
 
   .statistics{
@@ -504,25 +536,15 @@ footer p:nth-child(2){
 	font-size: 14px; 
 }
 
-/* medium screens */
-@media all and (min-width: 768px) and (max-width: 1024px) {
-.main img{
-	width:35%;
-}
-.hero{
-	height:80vh;
-}
-  }
 
   /* small screens */
-@media all and (min-width: 320px) and (max-width: 767px) {
-	body{
-		width:100%;
-		margin:auto;
-	}
+@media(max-width: 1300px) {
 	.hero{
-		height:70vh;
-		background-image: url(../resources/black.jpg);
+		height:45vh;
+	}
+
+	.content{
+		top:25%;
 	}
 
 	.main img{
@@ -531,3 +553,7 @@ footer p:nth-child(2){
 	
 	  }
 	
+
+
+	  /* github stats */
+

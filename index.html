@@ -14,7 +14,7 @@
 <body>
 	<!----hero Section start---->
 
-	<div class="hero">
+	
 		<nav>
 			<h2 class="logo">M<span>K</span></h2>
 			<ul>
@@ -22,16 +22,17 @@
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#project">Projects</a></li>
 				<li><a href="#footer">Contact</a></li>
-				<li> <a href="./resources/Madhu-Kinnera-Resume.pdf" target="_blank" download>Resume</a> </li>
+				<li> <a class="openresume" href="https://drive.google.com/file/d/1B5OrOZjcMNtbMUpki0cbSF9zORMqCawV/view?usp=share_link" target="_blank" download="Madhu-Kinnera-Resume">Resume</a> </li>
 			</ul>
 		</nav>
 
+		<div class="hero">
 		<div class="content">
 			<h4>Hello, my name is</h4>
 			<h1>Madhu <span>Kinnera</span></h1>
 			<h3>I'am a Java Backend Developer.</h3>
             <div>
-				<button><a href="#about">Know More</a></button>
+				<button><a href="https://drive.google.com/file/d/1B5OrOZjcMNtbMUpki0cbSF9zORMqCawV/view?usp=share_link" download="Madhu-Kinnera-Resume" >Resume</a></button>
 				<button><a href="mailto:kinneramadhu123@gmail.com">Email</a></button>
 
 			</div>
@@ -49,7 +50,7 @@
 				<h2>About Me</h2>
 				<h5>Java <span>Backend</span> Developer</h5>
 				<p>
-					&nbsp; &nbsp; Skilled Java Backend developer with 
+			        Skilled Java Backend developer with 
 					strong computer fundamentals. Deeply explored Java,
 					 Springboot, and Hibernate, and a philosopher in terms of understanding
 					  humans and computers. 
@@ -61,9 +62,9 @@
 						 with 1200+ hours of coding and 100+ hours of soft skills training.
 						  Looking forward to utilizing my skills in a challenging work environment. -->
 
-					 <br>
+					 <!-- <br>
 					 &nbsp; &nbsp;I like Workout,volleyball and Lofi Music.
-	  
+	   -->
 				</p>
 			</div>
 		</div>
@@ -349,6 +350,8 @@
 		</div>
 	</div>
 
+</div>
+
 	<!-- github calender starts -->
 
 	<div class="cal">
@@ -369,9 +372,32 @@
 />
 
 <!-- Prepare a container for your calendar. -->
+
+<div class="title github">
+	<h2>Github Statastics</h2>
+
 <div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
+	<!-- Loading stuff -->
+	Loading the data just for you.
+</div>
+
+</div>
+<br>
+<br>
+<br>
+
+<div class="github_stats">
+	
+	<a href="https://github.com/MadhuKinnera/github-readme-activity-graph"><img alt="Vishesh Guria's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=MadhuKinnera&bg_color=00000&color=f9004d&line=f9004d&point=ffffff&hide_border=false" /></a>
+	<br>
+	<br>
+	<br>
+	<p><img src="https://github-readme-stats.vercel.app/api?username=MadhuKinnera&show_icons=true&locale=en&hide_border=false&bg_color=191919&line=f9004d&icon_color=f9004d&title_color=f9004d&text_bold=false&include_all_commits=false&text_color=ffffff" alt="MadhuKinnera" /></p>
+	<!-- <br>
+	<br>
+	<br>
+	<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=MadhuKinnera&hide_border=false&background=0000&&currStreakLabel=f9004d&ring=f9004d&fire=f9004d&stroke=ffffff&border=ffffff&text=ffffff" alt="MadhuKinnera" /></p> -->
+
 </div>
 
 <script>
@@ -386,6 +412,7 @@
 </div>
 
 </div>
+
 <!-- <script>
   // or enable responsive functionality:
   GitHubCalendar(".calendar", "MadhuKinnera", { responsive: true });
@@ -408,3 +435,9 @@
 	</footer>
 </body>
 </html>
+
+<script>
+	document.querySelector(".openresume").addEventListener("click",function(){
+		window.open("https://drive.google.com/file/d/1B5OrOZjcMNtbMUpki0cbSF9zORMqCawV/view?usp=share_link","_blank");
+	})
+</script>

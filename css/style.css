@@ -22,7 +22,7 @@ html,body{
 	background-color: black;
 	/* background-size: cover;
 	background-position: center; */
-	background-image: url(../resources/background.jpg);
+	background-image: url(../resources/black.jpg);
 	background-size: cover;
 }
 nav{
@@ -38,6 +38,8 @@ nav{
 	z-index: 999;
 	
 }
+
+
 
 .logo{
 	color: white;
@@ -260,6 +262,26 @@ button:hover{
 }
 
 
+/* experience */
+
+#ex-box{
+	width:35%;
+	height: 50%;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.italic{
+	font-style: italic;
+}
+
+#ex-date{
+	font-style: normal;
+	font-size: 18px;
+}
 
 /* project Starts here..*/
 

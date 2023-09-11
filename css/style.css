@@ -15,8 +15,8 @@ html,body{
 
 
 .hero{
-	height: 800px;
-	border: 1px solid red;
+	height: 600px;
+	/* border: 1px solid red; */
 	width: 100%;
 	background-color: black;
 	/* background-size: cover;
@@ -78,23 +78,16 @@ nav ul li a:hover{
 .btn:hover{
 	transform: scale(1.2);
 }
-/* .content{
+.content{
 	position:absolute;
 	top: 50%;
 	left:8%;
 	transform: translateY(-50%);
 	
 
-} */
-
-.content{
-	position:absolute;
-	top: 70%;
-	left:8%;
-	transform: translateY(-50%);
-	
-
 }
+
+
 
 .content a{
 	color:white;

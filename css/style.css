@@ -1,7 +1,5 @@
 
 
-
-
 *{
 	padding: 0;
 	margin: 0;
@@ -18,12 +16,14 @@ html,body{
 
 .hero{
 	height: 600px;
+	border: 1px solid red;
 	width: 100%;
 	background-color: black;
 	/* background-size: cover;
 	background-position: center; */
-	background-image: url(../resources/black.jpg);
 	background-size: cover;
+	background-image: url(../resources/black.jpg);
+	
 }
 nav{
 	display: flex;

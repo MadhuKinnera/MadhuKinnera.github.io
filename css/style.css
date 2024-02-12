@@ -343,7 +343,7 @@ button:hover{
 }
 .card img{
 	display: block;
-	width:30%;
+	width:60%;
 	margin:auto;
 	text-align: center;
 	margin: 25px auto;
@@ -360,12 +360,13 @@ h5{
 	margin-bottom: 15px;
 }
 .pra p{
-	color: #fcfc;
-	width:50%;
+	color: white;
+	width:70%;
 	margin:auto;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 27px;
 	margin-bottom: 25px;
+	text-align: justify;
 }
 .pra p h5{
 	color:white;

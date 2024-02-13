@@ -11,7 +11,12 @@
 
 html,body{
 	overflow-x:hidden;
+	background-color: #191919;
 }
+
+.content {
+	padding-top: 70px; /* Add margin to create space for the fixed header */
+  }
 
 
 .hero{
@@ -78,7 +83,7 @@ nav ul li a:hover{
 .btn:hover{
 	transform: scale(1.2);
 }
-.content{
+.content1{
 	position:absolute;
 	top: 50%;
 	left:8%;
@@ -88,8 +93,7 @@ nav ul li a:hover{
 }
 
 
-
-.content a{
+.content1 a{
 	color:white;
 	text-decoration: none;
 }
@@ -108,6 +112,10 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
+
+
+
+/* for all headings  */
 
 
 .about{
@@ -181,7 +189,7 @@ button:hover{
 
 /* Education */
 .education{
-	padding:10px 0px;
+	padding:10px 0px 0px 0px;
 	width:100%;
 	/* height:480px; */
 	background-color: #191919;
@@ -192,7 +200,6 @@ button:hover{
 
 .colleges{
 	display:flex;
-	height:80%;
 	width:95%;
 	margin:auto;
 	align-items: center;
@@ -201,7 +208,7 @@ button:hover{
 	/* border:1px solid blue; */
 }
 .colleges .boxes{
-	height:62%;
+	/* height:62%; */
 	width:100%;
 	padding:15px;
 	border-radius: 10px;
@@ -242,7 +249,7 @@ button:hover{
 }
 
 /* Achievements Section starts here  */
-
+/* 
 .achievements{
 	padding:10px 0px;
 	margin-top: -350px;
@@ -265,10 +272,10 @@ button:hover{
 	line-height:40px;
 	color: #fcfc;
 	/* border:1px solid red; */
-	text-align: center;
+	/* text-align: center;
 	
 
-}
+} */ 
 
 
 /* experience */
@@ -279,19 +286,10 @@ button:hover{
 	
 }
 
-.experience{
-	/* background-color: red; */
-	text-align: center;
-	height: 1200px;
 
+.experience {
+	padding-top:10%px;
 }
-
-.experience .title h2{
-	margin-bottom: -150px;
-	padding:25px;
-}
-
-
 
 .responsibilities{
 	line-height: 25px;
@@ -318,14 +316,15 @@ button:hover{
 	width: 100%;
 	padding: 50px 0px;
 	/* background-color: blue; */
-	margin-top: -25%;
+	/* margin-top: -25%; */
 }
 .title h2{
 	text-align: center;
 	color: white;
 	font-size: 75px;
+	padding-top: 2%;
 	/* width: 1130px; */
-	margin: 30px auto;
+	margin:4% 0;
 	
 }
 .box{
@@ -360,13 +359,12 @@ h5{
 	margin-bottom: 15px;
 }
 .pra p{
-	color: white;
-	width:70%;
-	margin:auto;
+	color: #fcfc;
+	width:80%;
+	margin: 5% auto;
 	font-size: 20px;
 	line-height: 27px;
-	margin-bottom: 25px;
-	text-align: justify;
+	text-align:justify;
 }
 .pra p h5{
 	color:white;
@@ -387,9 +385,7 @@ h5{
 
 /* skills */
 .skills{
-    padding:30% 0px;
 	background-color: #191919;
-	margin-top: -200px;
 }
 
 
@@ -467,13 +463,13 @@ h5{
   /* statistics starts here */
 
   .cal{
-	margin:auto;
+	/* margin:auto; */
 	background-color: #191919;
   }
   
   .cal2{
 	width:80%;
-	margin:auto;
+	/* margin:auto; */
   }
  
   .streak{
@@ -507,7 +503,7 @@ h5{
 	align-items: center;
 	justify-content: space-around;
 	width:100%;
-	height: 220px;
+	/* height: 220px; */
   }
 
   .stats{
@@ -541,19 +537,12 @@ h5{
 
 
 
-
-/* Github */
-
-
-
-
-
 /*footer starts here*/
 
 footer{
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
@@ -569,7 +558,7 @@ footer p:nth-child(1){
 footer p:nth-child(2){
 	color: white;
 	font-size: 17px;
-	width: 500px;
+	width: 300px;
 	text-align: center;
 	line-height: 26px;
 }
@@ -620,13 +609,11 @@ footer p:nth-child(2){
 	.title h2{
 		padding-right:20%;
 	  }
+	
 	  .github h2{
 		padding-right:50%;
 	   }
 
 	
 	  }
-
-
-	  /* github stats */
 
